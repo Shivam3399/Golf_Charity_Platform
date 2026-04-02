@@ -1,0 +1,85 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  font-family: Inter, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  padding: 30px 20px;
+  background: #020617;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 30px 40px;
+}
+
+/* NAVBAR */
+.navbar {
+  margin-bottom: 30px;
+}
+
+/* GRID CARDS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.smallCard {
+  padding: 20px;
+  background: #1e293b;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.smallCard:hover {
+  background: #334155;
+}
+
+/* PANEL */
+.panel {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+/* ROW */
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #334155;
+}
+
+/* BUTTON */
+.button {
+  padding: 6px 12px;
+  margin-left: 10px;
+  background: #3b82f6;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+/* DRAW NUMBERS */
+.numbers {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.numbers span {
+  background: #22c55e;
+  padding: 8px;
+  border-radius: 50%;
+}
